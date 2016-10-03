@@ -1,5 +1,5 @@
 {
-.appVersion = "913";
+.appVersion = "924";
 copyright = "Copyright (c) 2011, Jonas Hecksher, Playtypes, e-types AS (lasse@e-types.com), with Reserved Font Name 'Play', 'Playtype', 'Playtype Sans'.";
 customParameters = (
 {
@@ -145,11 +145,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 937;
+value = 1112;
 },
 {
 name = winDescent;
-value = 0;
+value = 220;
 },
 {
 name = underlineThickness;
@@ -202,11 +202,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 937;
+value = 1112;
 },
 {
 name = winDescent;
-value = 0;
+value = 220;
 },
 {
 name = underlineThickness;
