@@ -1,8 +1,5 @@
 {
 .appVersion = "926";
-DisplayStrings = (
-" /descender-cy/descender-cy.case"
-);
 classes = (
 {
 automatic = 1;
@@ -715,11 +712,11 @@ value = 0;
 },
 {
 name = winAscent;
-value = 1112;
+value = 1052;
 },
 {
 name = winDescent;
-value = 220;
+value = 224;
 },
 {
 name = underlineThickness;
@@ -747,18 +744,6 @@ ascender = 932;
 capHeight = 649;
 customParameters = (
 {
-name = typoAscender;
-value = 937;
-},
-{
-name = typoDescender;
-value = -220;
-},
-{
-name = typoLineGap;
-value = 0;
-},
-{
 name = hheaAscender;
 value = 937;
 },
@@ -771,20 +756,32 @@ name = hheaLineGap;
 value = 0;
 },
 {
-name = winAscent;
-value = 1112;
+name = typoAscender;
+value = 937;
 },
 {
-name = winDescent;
-value = 220;
+name = typoDescender;
+value = -220;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = underlinePosition;
+value = -100;
 },
 {
 name = underlineThickness;
 value = 50;
 },
 {
-name = underlinePosition;
-value = -100;
+name = winAscent;
+value = 1052;
+},
+{
+name = winDescent;
+value = 224;
 }
 );
 descender = -220;

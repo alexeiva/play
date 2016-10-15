@@ -9,7 +9,3 @@ Play is a minimalistic sans serif typeface designed by Jonas Hecksher during his
 — Improved Cyrillic, and expanded glyphs to GF Cyrillic Plus
 — Rebuilt anchors, and components
 
-
-# Todo:
-- Run fonts through Font bakery and Ship fonts
-- Add TRADEMARKS.md
