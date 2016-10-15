@@ -5,4 +5,5 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
-Jovanny Lemonad <lemonad@jovanny.ru>
+Jonas Hecksher, Playtypes, e-types AS <lasse@e-types.com>
+Cyreal <contact@cyreal.org>

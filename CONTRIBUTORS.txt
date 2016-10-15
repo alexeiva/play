@@ -5,5 +5,6 @@
 # Names should be added to this file as:
 # Name or Organization <email address>
 
-Kimberly Geswein <kimberlygeswein.com>
-Marc Foley <m.foley.88@gmail.com>
+Jonas Hecksher, Playtypes, e-types AS <lasse@e-types.com>
+Alexei Vanyashin <a@cyreal.org>
+Nhung Nguyen <vns.wonderland@gmail.com>
