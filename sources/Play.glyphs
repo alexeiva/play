@@ -43,7 +43,7 @@ name = "TTFAutohint options";
 value = "--increase-x-height=13";
 }
 );
-date = "2017-02-09 20:44:07 +0000";
+date = "2017-03-01 09:58:32 +0000";
 designer = "Jonas Hecksher (Cyrillic expansion: Cyreal)";
 designerURL = "http://www.e-types.com";
 familyName = Play;
@@ -44683,30 +44683,51 @@ width = 732;
 unicode = 040D;
 },
 {
-color = 8;
 glyphname = "Iishorttail-cy";
 layers = (
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"720 67 LINE",
+"640 67 LINE",
+"551 0 LINE",
+"621 0 LINE",
+"570 -180 LINE",
+"650 -180 LINE"
+);
+}
+);
+};
 layerId = UUID0;
 paths = (
 {
 closed = 1;
 nodes = (
-"551 545 LINE",
-"551 0 LINE",
-"640 0 LINE",
+"650 -180 LINE",
+"720 67 LINE",
+"640 67 LINE",
 "640 649 LINE",
 "523 649 LINE",
 "174 113 LINE",
 "174 649 LINE",
 "85 649 LINE",
 "85 0 LINE",
-"202 0 LINE"
+"202 0 LINE",
+"551 545 LINE",
+"551 0 LINE",
+"621 0 LINE",
+"570 -180 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
+"427 703 OFFCURVE",
+"487 755 OFFCURVE",
+"492 830 CURVE",
 "447 830 LINE",
 "432 782 OFFCURVE",
 "412 763 OFFCURVE",
@@ -44717,10 +44738,7 @@ nodes = (
 "216 830 LINE",
 "220 755 OFFCURVE",
 "279 703 OFFCURVE",
-"354 703 CURVE SMOOTH",
-"427 703 OFFCURVE",
-"487 755 OFFCURVE",
-"492 830 CURVE"
+"354 703 CURVE SMOOTH"
 );
 }
 );
@@ -44732,10 +44750,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"532 460 LINE",
-"532 0 LINE",
-"564 0 LINE",
-"504 -166 LINE",
 "645 -166 LINE",
 "745 111 LINE",
 "681 111 LINE",
@@ -44745,12 +44759,19 @@ nodes = (
 "219 649 LINE",
 "70 649 LINE",
 "70 0 LINE",
-"238 0 LINE"
+"238 0 LINE",
+"532 460 LINE",
+"532 0 LINE",
+"564 0 LINE",
+"504 -166 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
+"456 718 OFFCURVE",
+"508 769 OFFCURVE",
+"513 845 CURVE",
 "431 845 LINE",
 "427 808 OFFCURVE",
 "408 790 OFFCURVE",
@@ -44761,10 +44782,7 @@ nodes = (
 "237 845 LINE",
 "241 769 OFFCURVE",
 "292 718 OFFCURVE",
-"375 718 CURVE SMOOTH",
-"456 718 OFFCURVE",
-"508 769 OFFCURVE",
-"513 845 CURVE"
+"375 718 CURVE SMOOTH"
 );
 }
 );
@@ -48625,7 +48643,6 @@ width = 705;
 unicode = 049C;
 },
 {
-color = 8;
 glyphname = "Kastroke-cy";
 layers = (
 {
@@ -48975,7 +48992,6 @@ width = 955;
 unicode = 04A4;
 },
 {
-color = 8;
 glyphname = "Pemiddlehook-cy";
 layers = (
 {
@@ -49141,7 +49157,6 @@ width = 760;
 unicode = 0524;
 },
 {
-color = 8;
 glyphname = "Haabkhasian-cy";
 layers = (
 {
@@ -49394,7 +49409,6 @@ width = 597;
 unicode = 04AA;
 },
 {
-color = 8;
 glyphname = "Tedescender-cy";
 layers = (
 {
@@ -49557,7 +49571,6 @@ width = 644;
 unicode = 04B0;
 },
 {
-color = 8;
 glyphname = "Hadescender-cy";
 layers = (
 {
@@ -49618,19 +49631,26 @@ width = 677;
 unicode = 04B2;
 },
 {
-color = 8;
 glyphname = "Tetse-cy";
 layers = (
 {
+background = {
+components = (
+{
+name = "Tse-cy";
+transform = "{1, 0, 0, 1, 166, 0}";
+}
+);
+};
 layerId = UUID0;
 paths = (
 {
 closed = 1;
 nodes = (
-"746 68 LINE",
-"746 649 LINE",
-"649 649 LINE",
-"649 68 LINE",
+"736 68 LINE",
+"736 649 LINE",
+"639 649 LINE",
+"639 68 LINE",
 "329 68 LINE",
 "329 581 LINE",
 "539 581 LINE",
@@ -49649,25 +49669,46 @@ nodes = (
 width = 925;
 },
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"854 -151 LINE",
+"854 111 LINE",
+"758 111 LINE",
+"758 649 LINE",
+"602 649 LINE",
+"602 110 LINE",
+"376 110 LINE",
+"270 0 LINE",
+"714 0 LINE",
+"714 -151 LINE"
+);
+}
+);
+};
 layerId = "206DC524-6BEE-4011-B4E8-F862EC5B14D0";
 paths = (
 {
 closed = 1;
 nodes = (
+"854 -151 LINE",
+"854 111 LINE",
+"758 111 LINE",
+"758 649 LINE",
+"602 649 LINE",
+"602 111 LINE",
+"356 111 LINE",
+"356 538 LINE",
+"535 538 LINE",
 "535 649 LINE",
 "20 649 LINE",
 "20 538 LINE",
 "200 538 LINE",
 "200 0 LINE",
-"632 0 LINE",
-"632 -166 LINE",
-"788 -166 LINE",
-"788 649 LINE",
-"632 649 LINE",
-"632 111 LINE",
-"356 111 LINE",
-"356 538 LINE",
-"535 538 LINE"
+"714 0 LINE",
+"714 -151 LINE"
 );
 }
 );
@@ -49947,7 +49988,6 @@ width = 654;
 unicode = 04BA;
 },
 {
-color = 8;
 glyphname = "Cheabkhasian-cy";
 layers = (
 {
@@ -50103,7 +50143,6 @@ width = 855;
 unicode = 04BC;
 },
 {
-color = 8;
 glyphname = "Chedescenderabkhasian-cy";
 layers = (
 {
@@ -50534,7 +50573,6 @@ width = 1015;
 unicode = 04C1;
 },
 {
-color = 8;
 glyphname = "Kahook-cy";
 layers = (
 {
@@ -50676,7 +50714,6 @@ width = 678;
 unicode = 04C3;
 },
 {
-color = 8;
 glyphname = "Eltail-cy";
 layers = (
 {
@@ -50765,7 +50802,6 @@ width = 761;
 unicode = 04C5;
 },
 {
-color = 8;
 glyphname = "Enhook-cy";
 layers = (
 {
@@ -50857,7 +50893,6 @@ width = 728;
 unicode = 04C7;
 },
 {
-color = 8;
 glyphname = "Entail-cy";
 layers = (
 {
@@ -51031,7 +51066,6 @@ rightMetricsKey = "En-cy";
 unicode = 04CB;
 },
 {
-color = 8;
 glyphname = "Emtail-cy";
 layers = (
 {
@@ -51380,7 +51414,6 @@ width = 728;
 unicode = 04D8;
 },
 {
-color = 8;
 glyphname = "Schwadieresis-cy";
 layers = (
 {
@@ -51603,7 +51636,6 @@ width = 570;
 unicode = 04DE;
 },
 {
-color = 8;
 glyphname = "Dzeabkhasian-cy";
 layers = (
 {
@@ -51841,7 +51873,6 @@ width = 728;
 unicode = 04E8;
 },
 {
-color = 8;
 glyphname = "Obarreddieresis-cy";
 layers = (
 {
@@ -52017,7 +52048,6 @@ width = 728;
 unicode = 04EA;
 },
 {
-color = 8;
 glyphname = "Edieresis-cy";
 layers = (
 {
@@ -52622,7 +52652,6 @@ width = 985;
 unicode = 051C;
 },
 {
-color = 8;
 glyphname = "Semisoftsign-cy";
 layers = (
 {
@@ -52739,7 +52768,6 @@ width = 667;
 unicode = 048C;
 },
 {
-color = 8;
 glyphname = "Ertick-cy";
 layers = (
 {
@@ -54074,30 +54102,51 @@ width = 611;
 unicode = 045D;
 },
 {
-color = 8;
 glyphname = "iishorttail-cy";
 layers = (
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"610 67 LINE",
+"530 67 LINE",
+"445 0 LINE",
+"511 0 LINE",
+"460 -180 LINE",
+"540 -180 LINE"
+);
+}
+);
+};
 layerId = UUID0;
 paths = (
 {
 closed = 1;
 nodes = (
-"445 400 LINE",
-"445 0 LINE",
-"530 0 LINE",
+"540 -180 LINE",
+"610 67 LINE",
+"530 67 LINE",
 "530 484 LINE",
 "413 484 LINE",
 "163 93 LINE",
 "163 484 LINE",
 "78 484 LINE",
 "78 0 LINE",
-"195 0 LINE"
+"195 0 LINE",
+"445 400 LINE",
+"445 0 LINE",
+"511 0 LINE",
+"460 -180 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
+"390 552 OFFCURVE",
+"450 604 OFFCURVE",
+"455 679 CURVE",
 "410 679 LINE",
 "395 631 OFFCURVE",
 "375 612 OFFCURVE",
@@ -54108,10 +54157,7 @@ nodes = (
 "179 679 LINE",
 "183 604 OFFCURVE",
 "242 552 OFFCURVE",
-"317 552 CURVE SMOOTH",
-"390 552 OFFCURVE",
-"450 604 OFFCURVE",
-"455 679 CURVE"
+"317 552 CURVE SMOOTH"
 );
 }
 );
@@ -54123,10 +54169,6 @@ paths = (
 {
 closed = 1;
 nodes = (
-"444 350 LINE",
-"444 0 LINE",
-"456 0 LINE",
-"402 -134 LINE",
 "543 -134 LINE",
 "643 111 LINE",
 "579 111 LINE",
@@ -54136,12 +54178,19 @@ nodes = (
 "199 484 LINE",
 "64 484 LINE",
 "64 0 LINE",
-"231 0 LINE"
+"231 0 LINE",
+"444 350 LINE",
+"444 0 LINE",
+"456 0 LINE",
+"402 -134 LINE"
 );
 },
 {
 closed = 1;
 nodes = (
+"402 553 OFFCURVE",
+"454 604 OFFCURVE",
+"459 680 CURVE",
 "377 680 LINE",
 "373 643 OFFCURVE",
 "354 625 OFFCURVE",
@@ -54152,10 +54201,7 @@ nodes = (
 "183 680 LINE",
 "187 604 OFFCURVE",
 "238 553 OFFCURVE",
-"321 553 CURVE SMOOTH",
-"402 553 OFFCURVE",
-"454 604 OFFCURVE",
-"459 680 CURVE"
+"321 553 CURVE SMOOTH"
 );
 }
 );
@@ -57781,7 +57827,6 @@ width = 623;
 unicode = 049D;
 },
 {
-color = 8;
 glyphname = "kastroke-cy";
 layers = (
 {
@@ -58161,7 +58206,6 @@ width = 632;
 unicode = 0525;
 },
 {
-color = 8;
 glyphname = "pemiddlehook-cy";
 layers = (
 {
@@ -58271,7 +58315,6 @@ width = 917;
 unicode = 04A7;
 },
 {
-color = 8;
 glyphname = "haabkhasian-cy";
 layers = (
 {
@@ -58496,7 +58539,6 @@ width = 482;
 unicode = 04AB;
 },
 {
-color = 8;
 glyphname = "tedescender-cy";
 layers = (
 {
@@ -58659,7 +58701,6 @@ width = 510;
 unicode = 04B1;
 },
 {
-color = 8;
 glyphname = "hadescender-cy";
 layers = (
 {
@@ -58720,7 +58761,6 @@ width = 568;
 unicode = 04B3;
 },
 {
-color = 8;
 glyphname = "tetse-cy";
 layers = (
 {
@@ -58729,14 +58769,14 @@ paths = (
 {
 closed = 1;
 nodes = (
-"605 66 LINE",
-"605 484 LINE",
-"515 484 LINE",
-"515 66 LINE",
+"595 66 LINE",
+"595 484 LINE",
+"505 484 LINE",
+"505 66 LINE",
 "276 66 LINE",
 "276 418 LINE",
-"443 418 LINE",
-"443 484 LINE",
+"433 418 LINE",
+"433 484 LINE",
 "19 484 LINE",
 "19 418 LINE",
 "186 418 LINE",
@@ -58751,25 +58791,46 @@ nodes = (
 width = 691;
 },
 {
+background = {
+paths = (
+{
+closed = 1;
+nodes = (
+"706 -134 LINE",
+"706 96 LINE",
+"631 96 LINE",
+"631 484 LINE",
+"485 484 LINE",
+"485 93 LINE",
+"332 93 LINE",
+"186 0 LINE",
+"586 0 LINE",
+"586 -134 LINE"
+);
+}
+);
+};
 layerId = "206DC524-6BEE-4011-B4E8-F862EC5B14D0";
 paths = (
 {
 closed = 1;
 nodes = (
+"706 -134 LINE",
+"706 96 LINE",
+"631 96 LINE",
+"631 484 LINE",
+"485 484 LINE",
+"485 93 LINE",
+"306 93 LINE",
+"306 394 LINE",
+"425 394 LINE",
 "425 484 LINE",
 "30 484 LINE",
 "30 394 LINE",
 "160 394 LINE",
 "160 0 LINE",
-"485 0 LINE",
-"485 -134 LINE",
-"631 -134 LINE",
-"631 484 LINE",
-"485 484 LINE",
-"485 90 LINE",
-"306 90 LINE",
-"306 394 LINE",
-"425 394 LINE"
+"586 0 LINE",
+"586 -134 LINE"
 );
 }
 );
@@ -58994,7 +59055,6 @@ width = 595;
 unicode = 04BB;
 },
 {
-color = 8;
 glyphname = "cheabkhasian-cy";
 layers = (
 {
@@ -59126,7 +59186,6 @@ width = 653;
 unicode = 04BD;
 },
 {
-color = 8;
 glyphname = "chedescenderabkhasian-cy";
 layers = (
 {
@@ -59509,7 +59568,6 @@ width = 808;
 unicode = 04C2;
 },
 {
-color = 8;
 glyphname = "kahook-cy";
 layers = (
 {
@@ -59639,7 +59697,6 @@ width = 554;
 unicode = 04C4;
 },
 {
-color = 8;
 glyphname = "eltail-cy";
 layers = (
 {
@@ -59722,7 +59779,6 @@ width = 611;
 unicode = 04C6;
 },
 {
-color = 8;
 glyphname = "enhook-cy";
 layers = (
 {
@@ -59808,7 +59864,6 @@ width = 617;
 unicode = 04C8;
 },
 {
-color = 8;
 glyphname = "entail-cy";
 layers = (
 {
@@ -59941,7 +59996,6 @@ width = 560;
 unicode = 04CC;
 },
 {
-color = 8;
 glyphname = "emtail-cy";
 layers = (
 {
@@ -60407,7 +60461,6 @@ width = 559;
 unicode = 04D9;
 },
 {
-color = 8;
 glyphname = "schwadieresis-cy";
 layers = (
 {
@@ -60612,7 +60665,6 @@ width = 500;
 unicode = 04DF;
 },
 {
-color = 8;
 glyphname = "dzeabkhasian-cy";
 layers = (
 {
@@ -60872,7 +60924,6 @@ width = 592;
 unicode = 04E9;
 },
 {
-color = 8;
 glyphname = "obarreddieresis-cy";
 layers = (
 {
@@ -61072,7 +61123,6 @@ width = 592;
 unicode = 04EB;
 },
 {
-color = 8;
 glyphname = "edieresis-cy";
 layers = (
 {
@@ -61633,7 +61683,6 @@ width = 822;
 unicode = 051D;
 },
 {
-color = 8;
 glyphname = "semisoftsign-cy";
 layers = (
 {
@@ -61744,7 +61793,6 @@ width = 582;
 unicode = 048D;
 },
 {
-color = 8;
 glyphname = "ertick-cy";
 layers = (
 {
@@ -99992,5 +100040,5 @@ tH = "59";
 };
 };
 versionMajor = 2;
-versionMinor = 100;
+versionMinor = 101;
 }
